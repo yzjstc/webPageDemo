@@ -7,6 +7,18 @@
     <title>我是测试页面</title>
 </head>
 <body>
-    
+    <script>
+        var color = "blue";
+        function getColor(){
+            color = "red";
+            return color;
+        }
+        alert(getColor());
+        alert(window.color);
+        var colors = ["red","blue","black"];
+        console.log(colors[0]);
+
+        console.log(colors[3]);
+    </script>
 </body>
 </html>
